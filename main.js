@@ -8,7 +8,7 @@ Quando si ferma,il programma deve mostrare il punteggio del computer e il
 
 //Il computer sceglie casualmente un numero e lo memorizza
 var pcNumber = Math.floor((Math.random() * 21) + 1);
-document.write(pcNumber);
+console.log(pcNumber);
 
 //l'utente deve scegliere un numero a caso fra 1 e 10 e poi decidere se fermarsi
 //o proseguire
