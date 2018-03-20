@@ -25,7 +25,8 @@ do{
   if(scelta==1){
   var userNumber=Math.floor((Math.random() * 10) + 1);
   userArray.push(userNumber);
-  somma=userArray.reduce(getSum);
+  somma=somma + userArray[i];
+  i++;
 
 
   alert("la somma dei numeri scelti dall'user è", + somma);
@@ -37,12 +38,12 @@ do{
     alert("scelta sbagliata");
   }
 
-}while((control==false)&&(somma<22);
+}while((control==false)&&(somma<22));
 
-if((somma<pcNumber)&&(somma<22){
+if((somma<pcNumber)&&(somma<22)){
   document.write("hai perso, somma = ", + somma);
 }
-else if((somma>pcNumber){
+else if((somma>pcNumber)){
   document.write("hai vinto, somma = ", + somma);
 }
 else if(somma==pcNumber){
