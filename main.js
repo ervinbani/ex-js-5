@@ -45,6 +45,10 @@ if((somma<pcNumber)&&(somma<22){
 else if((somma>pcNumber){
   document.write("hai vinto, somma = ", + somma);
 }
+else if(somma==pcNumber){
+  document.write("PAREGGio")
+}
+
 
 
 function getSum(total, num) {
